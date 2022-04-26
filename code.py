@@ -22,7 +22,9 @@ def game_scene():
     background = stage.Grid(image_bank_background, 10, 8)
 
     # a sprite that will be updated every frame
-    ship = stage.Sprite(image_bank_sprites, 5, 75, constants.SCREEN_Y - (2 * constants.SPRITE_SIZE))
+    ship = stage.Sprite(
+        image_bank_sprites, 5, 75, constants.SCREEN_Y - (2 * constants.SPRITE_SIZE)
+    )
 
     # create a stage for the background to show up on
     #   and set the frame rate to 60fps
@@ -63,7 +65,6 @@ def game_scene():
             pass
         if keys & ugame.K_DOWN != 0:
             pass
-
 
         # update game logic
 
