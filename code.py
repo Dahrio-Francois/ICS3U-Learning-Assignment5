@@ -4,9 +4,9 @@
 # Created on: April 2022
 # This program is the "Space Aliens" program on the PyBadge
 
+import constants
 import stage
 import ugame
-import constants
 
 
 def game_scene():
